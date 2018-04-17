@@ -1,0 +1,21 @@
+{
+    "name": "waplet/message-parser",
+    "authors": [
+        {
+            "name": "waplet",
+            "email": "waplet@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "w\\MessageParser\\": ""
+        }
+    },
+    "require": {
+        "carbondate/carbon": "^1.25",
+        "illuminate/support": "^5.6",
+        "fluentdom/fluentdom": "^7.0",
+        "fluentdom/selectors-phpcss": "^1.2",
+        "symfony/var-dumper": "^4.0"
+    }
+}
