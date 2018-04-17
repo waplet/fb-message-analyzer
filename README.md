@@ -1,5 +1,7 @@
 # Usage
 
+`composer install`
+
 ```
 <?php
 
@@ -14,3 +16,5 @@ $statistics = new \w\MessageParser\Services\Statistics($thread);
 
 get_class_methods($statistics);
 ```
+
+`php your_file.php`
